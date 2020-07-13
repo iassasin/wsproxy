@@ -1,6 +1,5 @@
 const Trigger = require('../src/trigger');
-
-const wait = time => new Promise(res => setTimeout(res, time));
+const {wait} = require('../src/utils');
 
 describe('Trigger', () => {
 	test('resumes on trigger await', async () => {

@@ -33,4 +33,8 @@ module.exports = class Trigger {
 			error ? sub.rejected(data) : sub.resolved(data);
 		}
 	}
+
+	resetPermament() {
+		this.#permamentResult = null;
+	}
 };

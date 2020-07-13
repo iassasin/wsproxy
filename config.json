@@ -1,0 +1,8 @@
+{
+	"wsUrl": "wss://sinair.ru/ws/chat",
+	"maxPollTime": 5000,
+	"listen": {
+		"address": "::",
+		"port": 3000
+	}
+}
