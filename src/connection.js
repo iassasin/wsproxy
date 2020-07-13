@@ -36,7 +36,7 @@ module.exports = class Connection {
 
 		sock.on('error', (err) => {
 			this.events.push({
-				type: 'connection-error',
+				type: 'error',
 				error: err && err.message || err,
 			});
 
