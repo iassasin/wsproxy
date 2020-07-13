@@ -1,0 +1,15 @@
+{
+  "name": "wsproxy",
+  "version": "0.0.1",
+  "description": "websocket long-poll proxy",
+  "main": "server.js",
+  "author": {
+    "email": "iassasin@yandex.ru",
+    "name": "iassasin",
+    "url": "https://sinair.ru/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^7.3.1"
+  }
+}
